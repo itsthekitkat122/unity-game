@@ -5,15 +5,6 @@ DataStreamReader
 Networking
 Transport
 DataStreamWriter
-RenderObjectsPass
-UnityEngine
-Experimental
-Rendering
-Universal
-FullScreenPassRendererFeature
-
-RenderQueueType
-RenderObjects
 AssetModificationProcessor
 
 Sysroot
