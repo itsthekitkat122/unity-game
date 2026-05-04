@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine;
@@ -20,12 +22,19 @@ public class Weapon : MonoBehaviour
     }
     private void FireWeapon()
     {
-        
+        //instantiate the bullet
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
 
+        //shoot the bullet
+        bullet.GetComponent<Rigidbody>().AddForce(bulletSpawn.forward.normalized * bulletVelocity, ForceMode.Impulse);
 
+        //destroy the bullet after some time 
+        StartCoroutine(DestroyBulletAfterTime(bullet, bulletPrefabLifeTime));
+    }
 
-
-
+    private IEnumerator DestroyBulletAfterTime(GameObject bullet, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(bullet);
     }
 }
