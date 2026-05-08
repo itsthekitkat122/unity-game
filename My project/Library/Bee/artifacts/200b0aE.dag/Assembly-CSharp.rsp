@@ -136,6 +136,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
@@ -402,7 +403,9 @@
 -r:"Library/PackageCache/com.unity.collections@538ace9075bc/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -423,6 +426,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PathTracing.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PathTracing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
@@ -462,6 +467,14 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
+"Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
+"Assets/EffectExamples/Shared/Scripts/GunAim.cs"
+"Assets/EffectExamples/Shared/Scripts/GunShoot.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/MouseMovement.cs"
 "Assets/Scripts/PlayerMovement.cs"
