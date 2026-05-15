@@ -19,13 +19,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ai.navigation@2.0.11": {
+    "com.unity.ai.navigation@2.0.12": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.ai.navigation@78534c21b27d",
-      "fingerprint": "78534c21b27d2c95f8220f5db8dce95627a32911",
+      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.ai.navigation@734c2c4c5591",
+      "fingerprint": "734c2c4c5591c25b6d4c6c83bd2f4957c118da40",
       "editorCompatibility": "6000.0.0a1",
-      "version": "2.0.11",
+      "version": "2.0.12",
       "source": "registry",
       "testable": false
     },
@@ -119,13 +119,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.11": {
+    "com.unity.timeline@1.8.12": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.timeline@bfd27f8016ff",
-      "fingerprint": "bfd27f8016ffda6a22579ffc468432a96b2cc5b6",
+      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.timeline@8cd8509afae5",
+      "fingerprint": "8cd8509afae5d2655af4657a214db1b563c28425",
       "editorCompatibility": "2022.3.0a1",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "source": "registry",
       "testable": false
     },
@@ -139,13 +139,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.10": {
+    "com.unity.visualscripting@1.9.11": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.visualscripting@eb6004dcc707",
-      "fingerprint": "eb6004dcc7073b805dbf1ea9006b7a915978a186",
+      "resolvedPath": "/Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.visualscripting@8bed5ad90189",
+      "fingerprint": "8bed5ad901895f10b7d0e524c4738cab14cef692",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.10",
+      "version": "1.9.11",
       "source": "registry",
       "testable": false
     },

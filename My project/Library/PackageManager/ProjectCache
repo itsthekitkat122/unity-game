@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639137954460000000
-    m_Hash: 3020352849
+      ticks: 639144020720000000
+    m_Hash: 3707232905
   m_LockFileStatus:
     m_FilePath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639137954640000000
-    m_Hash: 1491386318
+      ticks: 639144020720000000
+    m_Hash: 1371025428
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -113,12 +113,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ai.navigation@2.0.11
+- packageId: com.unity.ai.navigation@2.0.12
   testable: 0
   isDirectDependency: 1
-  version: 2.0.11
+  version: 2.0.12
   source: 1
-  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.ai.navigation@78534c21b27d
+  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.ai.navigation@734c2c4c5591
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -205,13 +205,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639071871875160000
+  datePublishedTicks: 639094401028640000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: b6751ff1ceb9a01f5b469d0aec8b249581bb7725
+    revision: 242ca4c9e872acfa139a1f7497abc44987f0f4b3
     path: 
   unityLifecycle:
     version: 2.0.11
@@ -225,8 +225,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Small correction in the UI definition
-    of the Navigation Updater window."}'
+  upmReserved: '{"changelog":"### Fixed\n* Fixed exception being thrown on Linux
+    when opening the settings windows."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -240,7 +240,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 78534c21b27d2c95f8220f5db8dce95627a32911
+  fingerprint: 734c2c4c5591c25b6d4c6c83bd2f4957c118da40
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.11
@@ -1535,12 +1535,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.11
+- packageId: com.unity.timeline@1.8.12
   testable: 0
   isDirectDependency: 1
-  version: 1.8.11
+  version: 1.8.12
   source: 1
-  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.timeline@bfd27f8016ff
+  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1691,13 +1691,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639076501551120000
+  datePublishedTicks: 639096350260850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: cdac322c9875133dd1579842f73adb7f463c6d0b
+    revision: ebb3d9b85ccc1dba717b152782ebb2c5251ac79e
     path: 
   unityLifecycle:
     version: 1.8.11
@@ -1711,9 +1711,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix performance regression in Custom
-    Clip PlayableAsset Inspector where animated parameters caused Timeline Window
-    to refresh when scrubbing or playing the Timeline (UUM-133569)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix double clicking on TimelineAsset
+    or console log throwing an error on 6000.0 (UUM-136605)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1727,7 +1726,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: bfd27f8016ffda6a22579ffc468432a96b2cc5b6
+  fingerprint: 8cd8509afae5d2655af4657a214db1b563c28425
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.11
@@ -1845,12 +1844,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.10
+- packageId: com.unity.visualscripting@1.9.11
   testable: 0
   isDirectDependency: 1
-  version: 1.9.10
+  version: 1.9.11
   source: 1
-  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.visualscripting@eb6004dcc707
+  resolvedPath: /Users/noahbaty/Documents/GitHub/unity-game/My project/Library/PackageCache/com.unity.visualscripting@8bed5ad90189
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1859,7 +1858,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1939,13 +1938,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639074549415510000
-  documentationUrl: 
+  datePublishedTicks: 639089344800930000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 769bd2a46b6624d2f0f3d229d5885a57b3c4960e
+    revision: e45076a785db38aa81ea919d98739fa8bcb6cdbc
     path: 
   unityLifecycle:
     version: 1.9.10
@@ -1959,11 +1958,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Replaced internal use of InstanceIDs
-    with the new EntityId (Unity 6.4+).\n- Migrate Mono APIs to CoreCLR-compatible
-    APIs available in Unity 6000.5 and above.\n### Fixed\n- Fixed loading icon showing
-    on the Visual Scripting components in the inspector during play mode when the
-    editor is compiling."}'
+  upmReserved: '{"changelog":"### Changed\n- Replaced remaining internal use of InstanceIDs
+    with the new EntityId (Unity 6.4+).\n- Replaced internal calls to the deprecated
+    `FindObjectsByType<T>(FindObjectsSortMode)` method (Unity 6.4+)."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1977,7 +1974,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: eb6004dcc7073b805dbf1ea9006b7a915978a186
+  fingerprint: 8bed5ad901895f10b7d0e524c4738cab14cef692
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.10
@@ -5899,7 +5896,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 6.3.0
     nextVersion: 
-    recommendedVersion: 6.3.0
+    recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
     isDiscoverable: 1
@@ -6627,7 +6624,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.16.0
     nextVersion: 
-    recommendedVersion: 1.16.0
+    recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
     isDiscoverable: 0
