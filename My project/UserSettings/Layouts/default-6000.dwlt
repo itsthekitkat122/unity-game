@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 767
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 307.5
     height: 480
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 725.5
     height: 480
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0, y: 0, z: -0, w: -1}
   m_Size:
     m_Target: 10.333069
     speed: 2
@@ -1256,15 +1256,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -10100
+      - m_Data: 49610
       m_LastClickedID:
-        m_Data: -10100
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -7450
-      - m_Data: -7112
       - m_Data: -1366
-      - m_Data: 50070
-      - m_Data: 50092
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1445,7 +1441,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites-Objects
+    - Assets/EffectExamples
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1455,29 +1451,29 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites-Objects
+  - Assets/EffectExamples
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/noahbaty/Documents/GitHub/unity-game/My project
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 88.00018}
+    scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 50596
+    - m_Data: 50588
     m_LastClickedID:
-      m_Data: 50596
+      m_Data: 50588
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50224
-    - m_Data: 50226
-    - m_Data: 50520
-    - m_Data: 51172
+    - m_Data: 50228
+    - m_Data: 50230
+    - m_Data: 50232
+    - m_Data: 50526
     - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: source
-      m_OriginalName: source
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1485,10 +1481,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 51166
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 11}
@@ -1507,8 +1503,9 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50224
-    - m_Data: 50226
+    - m_Data: 50228
+    - m_Data: 50230
+    - m_Data: 50232
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1537,9 +1534,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -10100
+    - m_Data: 49610
     m_LastClickedEntityId:
-      m_Data: -10100
+      m_Data: 49610
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
