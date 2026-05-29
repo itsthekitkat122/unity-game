@@ -1962,11 +1962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 1.0400001
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1997,10 +1997,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3951534411437419849, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1453328865633053301}
+      addedObject: {fileID: 1453328865633053302}
     - targetCorrespondingSourceObject: {fileID: 3951534411437419849, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1453328865633053302}
+      addedObject: {fileID: 1453328865633053301}
   m_SourcePrefab: {fileID: 100100000, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
 --- !u!4 &1453328865633053297 stripped
 Transform:
@@ -2036,7 +2036,7 @@ Animator:
   m_GameObject: {fileID: 1554171924}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64cba0ed41fff4375bfdfd492f826306, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

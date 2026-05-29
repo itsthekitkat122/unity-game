@@ -28,6 +28,7 @@ public class Weapon : MonoBehaviour
     public float bulletPrefabLifeTime = 3f; //seconds
 
     public GameObject muzzleEffect;
+    private Animator animator;
 
 
 
@@ -45,6 +46,7 @@ public class Weapon : MonoBehaviour
     {
         readyToShoot = true;
         burstBulletsLeft = bulletsPerBurst;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -69,6 +71,7 @@ public class Weapon : MonoBehaviour
     private void FireWeapon()
     {
         muzzleEffect.GetComponent<ParticleSystem>().Play();
+        animator.SetTrigger("RECOIL");
 
         readyToShoot = false;
 
