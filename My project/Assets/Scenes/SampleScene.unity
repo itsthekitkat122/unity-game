@@ -1950,19 +1950,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.0400001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1997,36 +1997,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3951534411437419849, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1453328865633053302}
-    - targetCorrespondingSourceObject: {fileID: 3951534411437419849, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1453328865633053301}
+      addedObject: {fileID: 1453328865633053298}
   m_SourcePrefab: {fileID: 100100000, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
 --- !u!4 &1453328865633053297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1325245774306374501, guid: a6a5d7413c2984276844a82b651d858c, type: 3}
   m_PrefabInstance: {fileID: 1048912454610343979}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1453328865633053301
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554171924}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 4aa9ecfd743dd4bfab4129539ed36e20, type: 2}
-  - {fileID: 7400000, guid: bee60d62e36c34c68bb2ff458232d566, type: 2}
-  - {fileID: 7400000, guid: 43124dba99faf4c369340fa6856b7f5e, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
---- !u!95 &1453328865633053302
+--- !u!95 &1453328865633053298
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
