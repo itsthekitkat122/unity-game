@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/noahbaty/Documents/GitHub/unity-game/My project/Temp/Burst/burst-aotyv3zuxh0.dlw/0a7f8c3f23130e359aa833dd2c0e46b2.bundle'
+binary-path:     '/Users/noahbaty/Documents/GitHub/unity-game/My project/Temp/Burst/burst-aoteq6gzjvx.cnn/0a7f8c3f23130e359aa833dd2c0e46b2.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<UnityEngine.Rendering.GPUInstanceDataBuffer.ConvertCPUInstancesToGPUInstancesJob>.Execute(ref UnityEngine.Rendering.GPUInstanceDataBuffer.ConvertCPUInstancesToGPUInstancesJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x70, symBinAddr: 0x500, symSize: 0xC8 }
   - { offset: 0x55, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<UnityEngine.Rendering.GPUInstanceDataBuffer.ConvertCPUInstancesToGPUInstancesJob>.Execute(ref UnityEngine.Rendering.GPUInstanceDataBuffer.ConvertCPUInstancesToGPUInstancesJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x70, symBinAddr: 0x500, symSize: 0xC8 }

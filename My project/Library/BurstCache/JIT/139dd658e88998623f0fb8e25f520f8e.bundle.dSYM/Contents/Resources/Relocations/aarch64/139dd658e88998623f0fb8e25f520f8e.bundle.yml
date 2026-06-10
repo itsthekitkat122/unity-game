@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/noahbaty/Documents/GitHub/unity-game/My project/Temp/Burst/burst-aotlhrw36bz.a77/139dd658e88998623f0fb8e25f520f8e.bundle'
+binary-path:     '/Users/noahbaty/Documents/GitHub/unity-game/My project/Temp/Burst/burst-aotyi05egpr.qow/139dd658e88998623f0fb8e25f520f8e.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobForExtensions.ForJobStruct`1<UnityEngine.Rendering.Universal.TilingJob>.Execute(ref UnityEngine.Rendering.Universal.TilingJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x160, symBinAddr: 0x5F0, symSize: 0x1B8 }
   - { offset: 0x43, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobForExtensions.ForJobStruct`1<UnityEngine.Rendering.Universal.TilingJob>.Execute(ref UnityEngine.Rendering.Universal.TilingJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x160, symBinAddr: 0x5F0, symSize: 0x1B8 }
