@@ -26,7 +26,7 @@ private void Awake()
 
             if (objectHitByRaycast.GetComponent<Weapon>())
             {
-                
+                print("Weapon Selected");
             }
         }
     }
