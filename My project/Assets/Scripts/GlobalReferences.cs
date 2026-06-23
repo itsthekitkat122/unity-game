@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class GlobalReferences : MonoBehaviour
 {
-    public static GlobalReferences Instance {get; set; }
+    public static GlobalReferences Instance { get; set; }
 
     public GameObject bulletImpactEffectPrefab;
 
     private void Awake()
     {
-        if(Instance != null && Instance!= this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
 
@@ -16,7 +16,7 @@ public class GlobalReferences : MonoBehaviour
         else
         {
             Instance = this;
-        } 
+        }
 
 
     }

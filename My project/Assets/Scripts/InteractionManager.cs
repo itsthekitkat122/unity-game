@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class InteractionManager : MonoBehaviour
 {
-public static InteractionManager Instance {get; set; }
-private void Awake()
+    public static InteractionManager Instance { get; set; }
+
+    public Weapon hoveredWeapon = null;
+
+
+
+    private void Awake()
     {
-        if(Instance != null && Instance!= this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
 
@@ -13,7 +18,7 @@ private void Awake()
         else
         {
             Instance = this;
-        } 
+        }
     }
     private void Update()
     {
@@ -26,7 +31,20 @@ private void Awake()
 
             if (objectHitByRaycast.GetComponent<Weapon>())
             {
-                print("Weapon Selected");
+                hoveredWeapon = objectHitByRaycast.gameObject.GetComponent<Weapon>();
+                hoveredWeapon.GetComponent<Outline>().enabled = true;
+
+                if (Input.GetKeyDown(KeyCode.F))
+                {
+                    WeaponManager.Instance.PickupWeapon(objectHitByRaycast.gameObject);
+                }
+            }
+            else
+            {
+                if (hoveredWeapon)
+                {
+                    hoveredWeapon.GetComponent<Outline>().enabled = false;
+                }
             }
         }
     }

@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class AmmoManager : MonoBehaviour
 {
-    public static AmmoManager Instance {get; set; }
+    public static AmmoManager Instance { get; set; }
 
     //UI
     public TextMeshProUGUI ammoDisplay;
 
     private void Awake()
     {
-        if(Instance != null && Instance!= this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
 
@@ -18,7 +18,7 @@ public class AmmoManager : MonoBehaviour
         else
         {
             Instance = this;
-        } 
+        }
 
 
     }

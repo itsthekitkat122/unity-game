@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-private void OnCollisionEnter(Collision objectWeHit)
+    private void OnCollisionEnter(Collision objectWeHit)
     {
-       if (objectWeHit.gameObject.CompareTag("Target"))
+        if (objectWeHit.gameObject.CompareTag("Target"))
         {
             print("hit " + objectWeHit.gameObject.name + " !");
 
@@ -14,17 +14,17 @@ private void OnCollisionEnter(Collision objectWeHit)
             Destroy(gameObject);
         }
 
-       if (objectWeHit.gameObject.CompareTag("Wall"))
+        if (objectWeHit.gameObject.CompareTag("Wall"))
         {
             print("hit a wall");
 
             CreateBulletImpactEffect(objectWeHit);
 
             Destroy(gameObject);
-        } 
+        }
     }
 
-void CreateBulletImpactEffect(Collision objectWeHit)
+    void CreateBulletImpactEffect(Collision objectWeHit)
     {
         ContactPoint contact = objectWeHit.contacts[0];
 

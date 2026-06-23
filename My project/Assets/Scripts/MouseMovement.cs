@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class MouseMovement : MonoBehaviour
 {
-    public float mouseSensitivity =500f;
+    public float mouseSensitivity = 500f;
 
     float xRotation = 0f;
     float yRotation = 0f;
@@ -20,7 +20,7 @@ public class MouseMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    
+
     void Update()
     {
         //Getting the mouse inputs

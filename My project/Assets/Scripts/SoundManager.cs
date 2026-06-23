@@ -2,24 +2,24 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static SoundManager Instance {get; set; }
+    public static SoundManager Instance { get; set; }
 
     public AudioSource ShootingChannel;
 
     public AudioClip P1911Shot;
     public AudioClip M4Shot;
 
-    
+
     public AudioSource reloadingSoundM4;
     public AudioSource reloadingSound1911;
 
 
     public AudioSource emptyMagazineSound1911;
-    
+
 
     private void Awake()
     {
-        if(Instance != null && Instance!= this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
 
@@ -27,7 +27,7 @@ public class SoundManager : MonoBehaviour
         else
         {
             Instance = this;
-        } 
+        }
 
 
     }
@@ -47,7 +47,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayReloadSound(Weapon.WeaponModel weapon)
     {
-           switch (weapon)
+        switch (weapon)
         {
             case Weapon.WeaponModel.Pistol1911:
                 reloadingSound1911.Play();
@@ -55,7 +55,7 @@ public class SoundManager : MonoBehaviour
             case Weapon.WeaponModel.M4:
                 reloadingSoundM4.Play();
                 break;
-        } 
+        }
     }
 
 

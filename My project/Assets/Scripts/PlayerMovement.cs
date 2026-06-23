@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         //ground check
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         //resetting the default velocity
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
