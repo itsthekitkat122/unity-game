@@ -32,7 +32,7 @@ public class Weapon : MonoBehaviour
     public float bulletPrefabLifeTime = 3f; //seconds
 
     public GameObject muzzleEffect;
-    private Animator animator;
+    internal Animator animator;
 
     //loading
     public float reloadTime;
@@ -72,6 +72,8 @@ public class Weapon : MonoBehaviour
     {
         if (isActiveWeapon)
         {
+            GetComponent<Outline>().enabled = false;
+
             //empty magazine sound
             if (bulletsLeft == 0 && isShooting)
             {
